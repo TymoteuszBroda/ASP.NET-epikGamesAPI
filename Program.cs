@@ -6,7 +6,7 @@ var configuration = builder.Configuration;
 
 // Add services to the container.
 builder.Services.AddDbContext<AppDbContext>(options=>
-    options.UseSqlite(configuration.GetConnectionString("Default connection")));
+    options.UseSqlite(configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();

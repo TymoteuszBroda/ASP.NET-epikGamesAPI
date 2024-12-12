@@ -10,7 +10,7 @@ using epikGamesAPI.Data;
 namespace epikGamesAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241212185412_InitialCreate")]
+    [Migration("20241212193552_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
