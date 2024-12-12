@@ -1,0 +1,6 @@
+@epikGamesAPI_HostAddress = http://localhost:5072
+
+GET {{epikGamesAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
